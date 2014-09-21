@@ -38,7 +38,7 @@ dataset are the subject and activities, the indexes are raised by 2.
 This before Assignment 3, because it's also about the variable names. To clean these I removed (with gsub) the tokens '(',')','-' en set the names to lowercase.
    
 ## Assignment 3:
-The file activity_labels.txt contains the activitycodes with the descriptive names. With write.tabel (default settings) this file is read in and
+The file activity_labels.txt contains the activitycodes with the descriptive names. With read.tabel (default settings) this file is read in and
 merged with the data. Column 82 will be created and called "activitylabel". 
 
 ## Assignment 5:
