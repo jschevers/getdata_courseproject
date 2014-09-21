@@ -21,7 +21,7 @@ In the working directory, the subdir "UCI HAR Dataset" will be created with file
 
 ## Assignment 1:
 The files in the subdir "test" subject_test.txt (subjects), y_test.txt (activities) and X_test.txt (measurments) will be read into R (with command 
-"read.table", defailt settings) and rbinded. Same for the "train" subdir
+"read.table", defailt settings) and cbinded. Same for the "train" subdir
 
 After that the two (test- and train datasets) wil be rowbinded to create one dataset. First column is the subjectvariavle, the second the activities, the following (the measurments)
 as describes in features_info.txt. 
